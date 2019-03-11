@@ -3,6 +3,11 @@ html{
 	font-family: Helvetica;
 }
 
+body{
+	width: 960px;
+	margin: 0 auto;
+}
+
 /* header/nav css */
 header{
 	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
@@ -35,12 +40,14 @@ header{
 
 .arrivals{
 	display: block;
-
+	position: relative;
 	color: white;
 	background-color: black;
 	width: 20rem;
 	padding-top: 2rem;
 	padding-left: 3rem;
+	padding-bottom: 2rem;
+	margin-bottom: 3.5rem;
 	margin-top: 9rem;
 }
 
@@ -132,6 +139,8 @@ nav span{
 
 /*footer*/
 footer{
+	display: flex;
+  align-items: center;
 	height: 5rem;
 	color: white;
 	background-color: black;
