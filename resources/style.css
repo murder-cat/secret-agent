@@ -98,3 +98,42 @@ nav span{
 	padding-bottom: 0.5rem;
 	text-align: center;
 }
+
+/*location/hours*/
+.information{
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 4rem;
+}
+
+.location{
+	width: 35%;
+}
+
+.hours{
+	width: 35%;
+}
+
+.location h3{
+	background-color: black;
+	color: white;
+	padding-left: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.hours h3{
+	background-color: black;
+	color: white;
+	padding-left: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+/*footer*/
+footer{
+	height: 5rem;
+	color: white;
+	background-color: black;
+	text-align: left;
+}
